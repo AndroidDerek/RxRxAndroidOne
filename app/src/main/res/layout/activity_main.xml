@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rxrxandroidone.MainActivity">
+
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用create方式(**开发最常使用的方式**)"
+    />
+    <Button
+        android:id="@+id/createInner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create 第二种方式(匿名内部类+链式编程)"/>
+    <Button
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="from"/>
+    <Button
+        android:id="@+id/interval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="interval"/>
+    <Button
+        android:id="@+id/just"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="just"/>
+    <Button
+        android:text="range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/range"/>
+    <Button
+        android:text="filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/filter"/>
+    <TextView
+        android:text="log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/log"/>
+
+</LinearLayout>
